@@ -21,6 +21,10 @@ The purpose of this repository is to practise:
 
 The repository is intended to contain R scripts, example analyses, and exercises completed during the lecture.
 
+### Penguin data analysis
+
+The `penguindata.R` script demonstrates basic data analysis in R using simulated emperor penguin measurements. It calculates average weight and height and visualizes the results using bar plots.
+
 ## Git and GitHub workflow
 
 1. **Edit:** Create or modify scripts in RStudio.

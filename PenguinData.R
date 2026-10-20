@@ -1,6 +1,8 @@
 # Emperor Penguin - Average Weight and Height
 # Example data for 10 penguins
 
+# Note: These are simulated values, not real penguin measurements.
+
 # 1. Create dataset
 penguins <- data.frame(
   weight_kg = c(32, 38, 35, 40, 36, 34, 39, 37, 33, 41),
