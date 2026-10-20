@@ -9,6 +9,12 @@ penguins <- data.frame(
   height_cm = c(115, 120, 118, 123, 117, 112, 121, 119, 116, 124)
 )
 
+# 1.a Create a parallel dataset with random values
+penguins1 <- data.frame(
+  weight_kg = sample.int(45, 10),
+  height_cm = sample.int(150, 10)
+)
+
 # 2. Calculate averages
 avg_weight <- mean(penguins$weight_kg)
 avg_height <- mean(penguins$height_cm)
