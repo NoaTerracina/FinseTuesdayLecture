@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
+
+# Finse Tuesday Lecture
+
+This repository contains R scripts and exercises developed during the Tuesday session of the Finse course.
+
+## Objectives
+
+The purpose of this repository is to practise:
+
+- Writing and running R scripts in RStudio.
+- Performing basic data analysis and visualization.
+- Using Git for version control.
+- Using GitHub to store, share, and track changes to code.
+
+## Repository contents
+
+The repository is intended to contain R scripts, example analyses, and exercises completed during the lecture.
+
+## Git and GitHub workflow
+
+1. **Edit:** Create or modify scripts in RStudio.
+2. **Commit:** Save a snapshot of changes to the local Git repository.
+3. **Push:** Upload commits to GitHub.
+4. **Pull:** Download changes from GitHub when needed.
+
+## Reproducibility
+
+R scripts should contain the code needed to reproduce their analyses and figures.
+
+## Updating this README
+
+This README is written in R Markdown (`README.Rmd`).
+
+After editing, regenerate `README.md` by running:
+
+```{r eval=FALSE}
+rmarkdown::render("README.Rmd")
+```
+
+Commit and push both files to keep the GitHub documentation up to date.
